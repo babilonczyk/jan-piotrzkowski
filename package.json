@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "main": "index.js",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
-    "start": "NODE_ENV=production vite dist/index.js",
+    "start": "vite build && vite dist/index.js",
     "check": "tsc",
     "dev": "vite",
     "build": "vite build",
