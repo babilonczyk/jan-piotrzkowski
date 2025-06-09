@@ -6,11 +6,8 @@
   "main": "index.js",
   "packageManager": "yarn@1.22.22",
   "scripts": {
-    "start": "vite preview",
-    "check": "tsc",
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
