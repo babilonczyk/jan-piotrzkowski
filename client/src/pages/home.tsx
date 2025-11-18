@@ -261,7 +261,7 @@ export default function Home() {
                 </span>
                 <a
                   className={linkPillClass}
-                  href="https://spec.labfile.io"
+                  href="https://spec.labfile.bio"
                   target="_blank"
                   rel="noreferrer"
                 >
