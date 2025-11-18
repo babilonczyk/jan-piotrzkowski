@@ -146,13 +146,13 @@ export default function Home() {
       />
       <main className="min-h-screen bg-white text-slate-900">
         <header className="max-w-4xl mx-auto px-6 sm:px-8 py-10">
-          <div className="flex gap-5 sm:gap-6 items-center">
+          <div className="flex flex-col sm:flex-row gap-5 sm:gap-6 items-center">
             <img
               src={me}
               alt="Jan Piotrzkowski"
-              className="h-24 w-24 rounded-full object-cover ring-4 ring-sky-100 shadow-sm"
+              className="h-24 w-24 sm:h-28 sm:w-28 rounded-full object-cover ring-4 ring-sky-100 shadow-sm"
             />
-            <div className="space-y-2">
+            <div className="space-y-2 text-center sm:text-left">
               <div className="text-sm text-sky-700 font-semibold">
                 Remote / Costa Rica · Open to relocation
               </div>
@@ -167,7 +167,7 @@ export default function Home() {
                 worldwide. I operate a B2B entity in Poland and can work on
                 contract basis.
               </p>
-              <div className="flex flex-wrap items-center gap-3 text-sm text-sky-700 font-medium">
+              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 text-sm text-sky-700 font-medium">
                 <span
                   className="inline-flex h-2 w-2 rounded-full bg-sky-500"
                   aria-hidden="true"
@@ -265,7 +265,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  spec.labfile.io
+                  spec.labfile.bio
                 </a>
               </div>
               <ul className="list-disc ml-5 space-y-1">
