@@ -13,9 +13,9 @@ interface SEOHeadProps {
 }
 
 export function SEOHead({
-  title = "Jan Piotrzkowski - Software Engineer | Ruby on Rails & JavaScript Developer",
-  description = "Software Engineer with 4+ years experience in Ruby on Rails, Angular, Vue.js. Remote contractor available worldwide. Currently at Quickmail.com building scalable solutions.",
-  keywords = "software engineer, ruby on rails developer, angular developer, vue.js, remote contractor, javascript, typescript, Jan Piotrzkowski, quickmail, scalable solutions",
+  title = "Jan Piotrzkowski - Software Developer",
+  description = "Software Developer with 4+ years of experience building scalable products for startups and product companies. Remote-first, open to relocation.",
+  keywords = "Jan Piotrzkowski, software developer, Ruby on Rails, Angular, JavaScript, TypeScript, remote, freelance, Costa Rica",
   ogTitle,
   ogDescription,
   ogImage = me,
@@ -65,12 +65,12 @@ export function SEOHead({
       "@context": "https://schema.org",
       "@type": "Person",
       name: "Jan Piotrzkowski",
-      jobTitle: "Software Engineer",
+      jobTitle: "Software Developer",
       url: ogUrl,
       email: "piotrzkowski.jan@gmail.com",
       sameAs: [
         "https://www.linkedin.com/in/jan-piotrzkowski/",
-        "https://www.upwork.com/freelancers/~01fcc24c24ccfa60d9",
+        "https://github.com/babilonczyk",
       ],
       knowsAbout: [
         "Software Engineering",
@@ -78,7 +78,6 @@ export function SEOHead({
         "JavaScript",
         "TypeScript",
         "Angular",
-        "Vue.js",
         "Remote Work",
         "Scalable Solutions",
         "Project Coordination",
