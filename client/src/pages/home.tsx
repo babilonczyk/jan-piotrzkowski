@@ -253,7 +253,7 @@ export default function Home() {
             Current Projects (Case Studies)
           </h2>
           <div className="space-y-5 text-sm leading-relaxed text-slate-800 pl-5">
-            <div className="space-y-2">
+            {/* <div className="space-y-2">
               <div className="text-base font-semibold text-slate-900 flex flex-wrap items-center gap-2">
                 <span>Labfile Specification</span>
                 <span className="rounded-full bg-sky-50 px-2 py-0.5 text-[12px] font-semibold text-sky-700 align-middle">
@@ -280,7 +280,7 @@ export default function Home() {
                   transfer between labs and software.
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             <div className="space-y-2">
               <div className="text-base font-semibold text-slate-900">
